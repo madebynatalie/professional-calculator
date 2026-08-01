@@ -9,7 +9,7 @@ class Operation(ABC):
     @abstractmethod
     def execute(self, first_number: float, second_number: float) -> float:
         """Perform an arithmetic operation."""
-        raise NotImplementedError
+        raise NotImplementedError  # pragma: no cover
 
 
 class Addition(Operation):
